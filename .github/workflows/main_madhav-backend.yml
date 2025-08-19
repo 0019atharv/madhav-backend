@@ -61,6 +61,7 @@ jobs:
         with:
           app-name: 'madhav-backend'
           slot-name: 'Production'
-          package: ./dist
+          package: .
 
           
+
