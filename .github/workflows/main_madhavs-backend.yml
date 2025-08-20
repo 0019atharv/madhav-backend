@@ -61,5 +61,7 @@ jobs:
         with:
           app-name: 'madhavs-backend'
           slot-name: 'Production'
-          package: .
+          package: node-app
+
+
           
