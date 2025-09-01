@@ -6,6 +6,8 @@ import Stripe from "stripe";
 import nodemailer from "nodemailer";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const frontend_url = "https://madhavs-frontend-hndzgaa4e2hxafbb.centralindia-01.azurewebsites.net/";
+
 
 // Nodemailer Transporter (use Gmail or another SMTP service)
 const transporter = nodemailer.createTransport({
