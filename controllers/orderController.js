@@ -7,8 +7,11 @@ import nodemailer from "nodemailer";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const frontend_url = "https://madhavs-frontend-hndzgaa4e2hxafbb.centralindia-01.azurewebsites.net/";
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 46dfbd9732dd18d94912eb96767dce55f4e3ddb5
 // Nodemailer Transporter (use Gmail or another SMTP service)
 const transporter = nodemailer.createTransport({
   service: "gmail", // or SMTP settings like smtp-relay.brevo.com
